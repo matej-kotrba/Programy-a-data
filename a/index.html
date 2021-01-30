@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programy a data</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>programové a datové soubory</h1>
+    </header>
+    <main>
+        <h2><abbr title="file">Soubor</abbr></h2>
+        <ul>
+            <li>je množina souvisejících dat uložených na diskové jednotce. Název souboru je obvykle tvořen jménem (ve
+                Windows až 254 znaků) a příponou, která naznačuje <b>typ souboru</b>. K dalším vlastnostem souboru patří
+                jeho
+                velikost, autor (vlastník), datum vytvoření, datum změny, atributy, přístupová práva apod.</li>
+            <li>K přehlednější práci se soubory slouží systém adresářů či složek (directories, folders). Adresáře tvoří
+                na disku typicky hierarchickou strukturu (tree - strom); základem je tzv. kořenový adresář (root)
+                označený symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář může obsahovat soubory i
+                podadresáře (subdirectories). </li>
+        </ul>
+        <figure>
+            <img src="img/file.png" alt="Soubor">
+            <figcaption>Soubor</figcaption>
+        </figure>
+        <div class="odkaz"><a href="https://cs.wikipedia.org/wiki/Soubor" target="blank">Více informací ohldedně souboru
+                zjistíte kliknutím zde</a></div>
+
+        <h2><abbr title="path">Cesta</abbr></h2>
+        <ul>
+            <li>vyjadřuje umístění souboru vždy směrem od nejvyššího <b>adresáře:</b> C:\XAMPP\mysql\bin\mysql.exe. Pro
+                operace se soubory využíváme někdy zástupné znaky (wildcards):</li>
+            <li>symbol <b>*</b> nahrazuje v názvu libovolný počet znaků (např. *.*)</li>
+            <li>symbol <b>?</b> nahrazuje jeden libovolný znak (např. s?s.txt)</li>
+        </ul>
+        <h2>Programové soubory</h2>
+        <ul>
+            <li>obsahují instrukce, podle nichž procesor ve spolupráci s dalšími hardwarovými komponentami plní
+                konkrétní
+                úlohy. Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve strojovém kódu pro danou
+                platformu), nebo ve zdrojovém kódu, obsahujícím příkazy určitého programovacího jazyka. Mezi programové
+                soubory můžeme zařadit také skripty, soubory instrukcí v textové podobě, které ke svému spuštění
+                vyžadují
+                speciální program - interpret.</li>
+            <li>Větší programy jsou tvořeny programovými knihovnami (runtime libraries), speciálními soubory s
+                připravenými
+                funkcemi, které programy využívají pro svůj běh. Ve Windows to jsou např. soubory DRV a SYS (obsahující
+                zejména ovladače čili drivery, ale i systémové funkce), nebo také <b>DLL</b> (dynamic linking library -
+                dynamicky
+                linkované knihovny), které mohou být podle potřeby za běhu (dynamicky) připojeny k jednomu i více
+                programům
+            </li>
+            <li>Některé soubory s tzv. spustitelnou příponou (např. .exe a .com ve Win-dows, .sh v Linuxu) slouží ke
+                spuštění programu - aktivaci procesu v rámci operačního systému. Za rezidentní programy (služby, démony)
+                označujeme ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému (např. antivirové
+                programy)</li>
+        </ul>
+        <h2>Datové soubory</h2>
+        <ul>
+            <li>obsahují data různého charakteru (číselné, textové, grafické, zvukové údaje). K jejich zpracování se
+                používají konkrétní programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny)
+                s
+                určitou aplikací (např. DOCX s programem MS Word, nebo XLSX s programem MS Excel).</li>
+        </ul>
+    </main>
+    <div class="stranky"><a href="../b/index.html">Ovladače, firmware a utility</a></div>
+    <div class="stranky"><a href="../c/index.html">Software a autorský zákon</a></div>
+    <div class="stranky"><a href="../d/index.html">Emulace a virtualizace</a></div>
+    <div class="stranky"><a href="../e/index.html">Cloudová řešení</a></div>
+    <div class="stranky"><a href="../index.html">Zpět na rozcestník</a></div>
+    <footer>
+
+        <p>Programové a datové soubory - &copy; &reg; 2021 Matěj Kotrba, IT1</p>
+
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+
+h1 {
+  text-transform: uppercase;
+  color: yellow;
+  text-align: center;
+  border: yellow solid 3px;
+  margin-left: 850px;
+  margin-right: 850px;
+  background-color: rgb(42, 44, 83);
+  opacity: 1;
+  position: fixed;
+  
+
+}
+
+h1:hover{
+  opacity: 0;
+  transition: 5s;
+
+}
+
+body {
+  background-color:rgb(30, 32, 61);
+}
+
+.soubor {
+  text-align: center;
+  margin-left: 200px;
+  border: yellow solid 3px;
+  margin-right: 1420px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  background-color: rgb(42, 44, 83);  
+}
+
+.ovladac {
+  text-align: center;
+  margin-left: 1425px;
+  margin-top: -300px;
+  border: yellow solid 3px;
+  margin-right: 160px;
+  padding-left: 0px;
+  padding-bottom: 31px;
+  background-color: rgb(42, 44, 83);
+}
+
+.autor {
+  text-align: center;
+  border: yellow solid 3px;
+  margin: -3px 820px;
+  padding-bottom: 6px;
+  background-color: rgb(42, 44, 83);      
+}
+
+.emulace {
+  text-align: center;
+  margin-left: 200px;
+  border: yellow solid 3px;
+  margin-right: 1420px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  background-color: rgb(42, 44, 83);
+  margin-top: -2px;
+}
+
+.cloud {
+  text-align: center;
+  margin-left: 1425px;
+  margin-top: -311px;
+  border: yellow solid 3px;
+  margin-right: 160px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  background-color: rgb(42, 44, 83);
+  
+}
+
+a {
+  color: yellow;
+}
+
+footer {
+  color: yellow;
+  border-top: yellow 3px solid;
+  margin-top: 30px;
+}
+
+a:hover {
+  transition: 500ms;
+  color: red;
+  border: yellow 5px solid;
+  
+}
+
+p {
+  transform: rotate(900deg) ;
+   
+
+}

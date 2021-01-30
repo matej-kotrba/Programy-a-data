@@ -1,0 +1,151 @@
+
+
+body {
+    font-family:Arial, 'Times New Roman', sans-serif ;
+    background-color:lightcyan;
+}
+
+
+
+main {
+    width: 1400px;
+    margin: auto auto;
+    border: 5px ridge lightskyblue;
+    padding: 50px;
+}
+
+h1 {
+    color: rgb(52, 52, 241);
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    text-shadow: 2px 2px lightblue;
+    padding-top: 2px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-color: black;
+}
+
+
+
+h2 {
+    color: rgb(69, 69, 207);
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: underline solid rgb(69, 69, 207);
+}
+
+h3 {
+    color: rgb(69, 69, 207);
+    text-decoration: underline solid rgb(69, 69, 207);
+    font-size: 20px;
+}
+
+p {
+    
+    text-indent: 50px;
+    font-size: 105%;
+    padding-bottom: 8px;
+    
+}
+
+li {
+    
+    padding-bottom: 15px;
+    font-size: 105%;
+}
+
+b {
+    color: black;
+    font-size: 18px;
+}
+
+figure {
+    text-align: center;    
+    padding-bottom: 2px;
+}
+
+figcaption {
+    text-decoration: underline black 8%;
+}
+
+footer {
+    border-top: black 2px solid;
+    margin-top: 5px;
+}
+
+.stranky {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border: lightskyblue ridge 5px;
+    margin-left: 750px;
+    margin-right: 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(193, 243, 243);
+}
+ .odkaz {
+    text-align: right;
+    padding-bottom: 5px;
+    border: lightskyblue ridge 3px;
+    margin-left: 1250px;
+    margin-bottom: 5px;
+    background-color: rgb(193, 243, 243);
+    
+ }   
+    
+i {
+    font-size: smaller;
+}
+
+.vyhody {
+    text-align: center;
+    font-size: 30px;
+    border: solid green;
+    background-color: rgb(70, 240, 70);
+    float:left;
+    margin-left: 220px;
+    
+}
+
+.nevyhody {
+    text-align: center;
+    font-size: 30px;
+    border: solid red;    
+    background-color: rgb(240, 120, 120);
+    float:right;
+    margin-right: 220px;
+}
+
+.vpravo {
+    text-align: left;
+    margin-top: -242px;
+    border: red solid;
+    margin-left: 750px;
+    padding-right: 20px;
+    padding-top: 0px;
+    background-color: rgb(240, 120, 120);
+    padding-left: 2px;
+    padding-bottom: -10px;      
+}
+
+.vlevo {
+    text-align: left;
+    border: green solid;
+    margin-right: 850px;
+    padding-left: 20px;
+    background-color: rgb(70, 240, 70);    
+    
+}
+
+a:hover {
+    transition: 5ms;
+    color: red;
+    
+
+} 
